@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="TaClassifieds.csproj" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
