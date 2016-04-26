@@ -12,8 +12,9 @@ namespace TA.Classified.Data.Configuration
     {
         public ClassifiedCategoryConfiguration() 
         {
-            ToTable("Categories");
-            Property(c => c.Name).IsRequired().HasMaxLength(50);
+            ToTable("TAC_Category");
+            Property(c => c.CategoryName).IsRequired().HasMaxLength(50);
+            Property(c => c.CategoryImage).IsOptional();
         }
     }
 }

@@ -9,10 +9,7 @@ namespace TA.Classified.Model
     public class ClassifiedCategory
     {
         public int CategoryID { get; set; }
-        public string Name { get; set; }
-
-        public ClassifiedCategory()
-        {
-        }
+        public string CategoryName { get; set; }
+        public string CategoryImage { get; set; }
     }
 }

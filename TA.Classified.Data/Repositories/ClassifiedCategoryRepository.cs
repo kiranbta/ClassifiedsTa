@@ -15,7 +15,7 @@ namespace TA.Classified.Data.Repositories
 
         public ClassifiedCategory GetCategoryByName(string categoryName)
         {
-            var category = this.DbContext.ClassifiedCategories.Where(c => c.Name == categoryName).FirstOrDefault();
+            var category = this.DbContext.ClassifiedCategories.Where(c => c.CategoryName == categoryName).FirstOrDefault();
 
             return category;
         }
